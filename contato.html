@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Luciano Henrique | Contato</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <nav>
+        <div class="logo">LUCIANO<span>.DEV</span></div>
+        <button class="menu-toggle" id="mobile-menu">
+            <i class="fas fa-bars"></i>
+        </button>
+        <ul class="nav-links">
+            <li><a href="index.html">Sobre</a></li>
+            <li><a href="projetos.html">Projetos</a></li>
+            <li><a href="contato.html" class="active">Contato</a></li>
+        </ul>
+    </nav>
+
+    <main class="container page-fade">
+        <div class="contato-grid">
+            <div class="contato-info">
+                <h1>Vamos conversar?</h1>
+                <p>Estou disponível para novos projetos e diálogos técnicos.</p>
+                <div class="social-list">
+                    <a href="https://wa.me/5582994165810" class="s-link"><i class="fab fa-whatsapp"></i> (82) 99416-5810</a>
+                    <a href="https://www.instagram.com/lhpc2808/" class="s-link"><i class="fab fa-instagram"></i> @lhpc2808</a>
+                    <div class="s-link"><i class="fab fa-discord"></i> vanillucci</div>
+                </div>
+            </div>
+
+            <form class="contato-form" action="https://formspree.io/f/lhpc2808@gmail.com" method="POST">
+                <input type="text" name="name" placeholder="Nome" required>
+                <input type="email" name="email" placeholder="E-mail" required>
+                <textarea name="message" placeholder="Como posso ajudar?" rows="4" required></textarea>
+                <button type="submit">Enviar Mensagem</button>
+            </form>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
