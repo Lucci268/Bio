@@ -13,3 +13,13 @@ document.querySelectorAll('.nav-links a').forEach(link => {
         navLinks.classList.remove('active');
     });
 });
+
+windom.onload = function(){
+    const hoje = new Date();
+    const dataFormatada = hoje.toLocaleDataString('pt-BR');
+
+    const elementoData = document.getElementByld('data');
+    if (elementoData) {
+        elementoData.innerText = "Data atual: " + dataFormatada;
+    }
+};
